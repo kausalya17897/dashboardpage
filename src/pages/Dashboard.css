@@ -1,0 +1,93 @@
+.Dashboard{
+    margin-top: 0;
+    
+}
+.mainpage{
+    margin-left: 60px;
+    margin-top: 0;
+   
+  }.topbar{
+  height:78px;
+  background-color: white;
+  display: flex;
+  }
+  .profile{
+    height:60px;
+    margin-left: 5px;
+  
+  }
+  .name{
+    margin-left:6px;
+    padding-top: 20px;
+  }
+  #SearchIcon{
+    margin-top: 15px;
+    background-color: blue;
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+   height: 40px;
+   width:30px;
+   cursor: pointer;
+  }
+  .SearchIcon{
+    height: 30px;
+    margin-left: auto;
+  }
+  .icon{
+    margin-left:auto;
+    padding-top: 25px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .IconButton{
+    border-left:1px solid black ;
+  }
+  .searchbutton{
+  margin-top: 15px;
+  height: 40px;
+  width: 350px;
+ margin-left: auto;
+  border-color: 1px solid white;
+  border-top-left-radius: 5px 5px;
+  border-bottom-left-radius: 5px 5px;
+  
+  padding-left: 5px;
+}
+.mainpage{
+  margin-left: 60px;
+  margin-top: 0;
+ 
+}.topbar{
+height:78px;
+background-color: white;
+display: flex;
+}
+.profile{
+  height:60px;
+  margin-left: 5px;
+
+}
+.name{
+  margin-left:6px;
+  padding-top: 20px;
+}
+  .maindash{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin-left:10px ;
+  }
+  .topbar{
+    position: sticky;
+  }
+  .topbar2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .topbar3{
+    display: flex;
+    gap:1rem;
+    margin-top: 10px;
+    margin-left: 5px;
+  }

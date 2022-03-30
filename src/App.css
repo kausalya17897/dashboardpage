@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar{
+  background-color: #224A7B;
+  height:100vh;
+  color:white;
+  position:fixed;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  height:50px;
+  width: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.link{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+  gap:15px;
+  padding: 5px 10px;
+  
+}
+.top-section{
+  display: flex;
+  justify-content: space-between;
+}
+.routes{
+  align-items: left;
+}
+.icon{
+  padding-top: 0px!important;
+  margin-left: 0px !important;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+border-right: 4px solid white;
+background-color: rgb(148, 148, 206);
+
+}
+.App{
+  position: relative;
+color:#F0F0F0;
+}
+.projectname{
+  background-color: white;
+  width:450px;
+  height: 300px;
+  padding: 10px;
+}
+.marketing{
+  width: 450px;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+.marketingdetails{
+  display: flex;
+}
+.marketing>div{
+  display: flex;
+  justify-content: space-between;
+}
+.dflex>h4{
+  border-right: 1px solid gray;
+  padding: 5px;
+}
+.dflex{
+  display: flex;
+  justify-content: space-between;
+}
+.marketingdetails>h4{
+  border-right: 1px solid gray;
+  padding: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.PieChart{
+  display: inline-block;
+}
+.dashaddon{
+  height: 100vh;
+  width: 150px;
+  background-color: white;
+  
+  color:black
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.maindash{
+  width: 40vw;
+}
+
+.sidemenu{
+  width:200px;
+  background-color: #224A7B;
+  height:100vh;
+  color:white;
+  position:absolute ;
+}
+.icon{
+  color:white;
+}
+ul>li{
+  list-style-type: none;
+}
+li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.Dashboard,.Clients,.Consumers,.Departments,.Insights,.Projects{
+  margin-left: 200px;
+  margin-right:0px ;
+  width: 70vw;
+  height: 100vh;
+  color:black;
+  position: absolute;
+  background-color: rgb(241, 246, 252);
 }
